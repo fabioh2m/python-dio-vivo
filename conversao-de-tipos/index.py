@@ -2,7 +2,7 @@
 # print (preco)
 
 
-#preco = float(preco)#converti para float
+#preco = float(preco)#converte para float
 #print (preco)
 
 
@@ -19,10 +19,24 @@
 # print (float('10.5'))#converti de string para float
 # print (int('50'))#converti de string para int
 
-valor = 10
-valor_str = str(valor)
-print (type(valor), (valor_str))
+# valor = 10
+# valor_str = str(valor)
+# print (type(valor), type(valor_str))# 
 
+
+# OPERADORES ARITIMÉTICOS- PRECEDÊNCIA
+
+# 1-> ()
+# 2-> EXPONENCIAÇÃO **
+# 3-> * /  L for R
+# 4-> + -  L for R 
+
+# print (10-5 * 2) # é 10 ou 0? 
+# >>> 0
+
+# print (10-2 + 5) vai executar 10-2 pela regra L for R
+
+# print (5 * (10-5)) vai forçar o operador - executar primeiro
 
 
 
